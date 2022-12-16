@@ -37,7 +37,7 @@ urlpatterns = [
     # you should be routed to the django Rest framework
     path('api/', include('tododrf.urls')),
 
-    # path('',TemplateView.as_view('index.html')),
+    path('',TemplateView.as_view(template_name= 'index.html')),
  
  
 ]
